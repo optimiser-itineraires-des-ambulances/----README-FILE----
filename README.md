@@ -66,6 +66,8 @@ L'architecture repose sur une approche **microservices** pour garantir :
 - docker build -f Dockerfile -t ambulance_project/service-ambulances-docker .n
 - docker build -f Dockerfile -t ambulance_project/gateway-docker .n
 - docker build -f Dockerfile -t ambulance_project/eureka-server-docker .n
+- docker build -f Dockerfile -t ambulance_project/angular-docker .n
+- docker build -f Dockerfile -t ambulance_project/flutter-docker .n
 - **Docker Compose**
 - docker-compose up --build
 
