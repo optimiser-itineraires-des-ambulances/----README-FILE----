@@ -60,7 +60,7 @@ L'architecture repose sur une approche **microservices** pour garantir :
 
 ## Installation et configuration
 
-- **Your project structure should be like this**
+**Your project structure should be like this**
 - ambulance-project/
 - ├── docker_compose/
 - ├── FrontendAngular/
@@ -71,7 +71,7 @@ L'architecture repose sur une approche **microservices** pour garantir :
 - ├── service-utilisateur/
 - ├── docker-compose.yml
 - └── Flutter_Front/
-- **Creation des images docker**
+**Creation des images docker**
 - docker build -f Dockerfile -t ambulance_project/service-user-docker .n
 - docker build -f Dockerfile -t ambulance_project/service-hopitaux-docker .n
 - docker build -f Dockerfile -t ambulance_project/service-trajets-docker .n
@@ -80,7 +80,7 @@ L'architecture repose sur une approche **microservices** pour garantir :
 - docker build -f Dockerfile -t ambulance_project/eureka-server-docker .n
 - docker build -f Dockerfile -t ambulance_project/angular-docker .n
 - docker build -f Dockerfile -t ambulance_project/flutter-docker .n
-- **Docker Compose**
+**Docker Compose**
 - docker-compose up --build
 
 ## Remerciements
