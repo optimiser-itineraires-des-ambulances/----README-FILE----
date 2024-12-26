@@ -7,8 +7,7 @@
 4. [Fonctionnalités du logiciel](#fonctionnalités-du-logiciel)
 5. [Exigences de compilation et configuration](#exigences-de-compilation-et-configuration)
 6. [Installation et configuration](#installation-et-configuration)
-7. [Métadonnées du code](#métadonnées-du-code)
-8. [Remerciements](#remerciements)
+7. [Remerciements](#remerciements)
 
 ---
 
@@ -60,8 +59,18 @@ L'architecture repose sur une approche **microservices** pour garantir :
 ---
 
 ## Installation et configuration
+  -**Creation des images docker** 
+  docker build -f Dockerfile -t ambulance_project/service-user-docker .n
+  docker build -f Dockerfile -t ambulance_project/service-hopitaux-docker .n
+  docker build -f Dockerfile -t ambulance_project/service-trajets-docker .n
+  docker build -f Dockerfile -t ambulance_project/service-ambulances-docker .n
+  docker build -f Dockerfile -t ambulance_project/gateway-docker .n
+  docker build -f Dockerfile -t ambulance_project/eureka-server-docker .n
+  - **Docker Compose**
+  docker-compose up --build
 
-### Étape 1 : Cloner le dépôt
-```bash
-git clone https://github.com/optimiser-itineraires-des-ambulances
-cd optimiser-itineraires-des-ambulances
+## Remerciements
+
+Nous remercions chaleureusement toute l'équipe pour les efforts déployés et l'engagement tout au long de ce projet.  
+Un grand merci également à notre professeur encadrant pour son accompagnement, ses précieux conseils et son soutien tout au long de cette aventure.  
+
