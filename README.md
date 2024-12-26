@@ -59,6 +59,18 @@ L'architecture repose sur une approche **microservices** pour garantir :
 ---
 
 ## Installation et configuration
+
+- **Your project structure should be like this**
+- ambulance-project/
+- ├── docker_compose/
+- ├── FrontendAngular/
+- ├── Gateway-EurekaServer/
+- ├── service-ambulance/
+- ├── service-hopitaux/
+- ├── service-trajets/
+- ├── service-utilisateur/
+- ├── docker-compose.yml
+- └── Flutter_Front/
 - **Creation des images docker**
 - docker build -f Dockerfile -t ambulance_project/service-user-docker .n
 - docker build -f Dockerfile -t ambulance_project/service-hopitaux-docker .n
