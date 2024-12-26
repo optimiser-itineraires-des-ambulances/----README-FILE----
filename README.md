@@ -59,15 +59,15 @@ L'architecture repose sur une approche **microservices** pour garantir :
 ---
 
 ## Installation et configuration
-  -**Creation des images docker** 
-  docker build -f Dockerfile -t ambulance_project/service-user-docker .n
-  docker build -f Dockerfile -t ambulance_project/service-hopitaux-docker .n
-  docker build -f Dockerfile -t ambulance_project/service-trajets-docker .n
-  docker build -f Dockerfile -t ambulance_project/service-ambulances-docker .n
-  docker build -f Dockerfile -t ambulance_project/gateway-docker .n
-  docker build -f Dockerfile -t ambulance_project/eureka-server-docker .n
-  - **Docker Compose**
-  docker-compose up --build
+- **Creation des images docker**
+- docker build -f Dockerfile -t ambulance_project/service-user-docker .n
+- docker build -f Dockerfile -t ambulance_project/service-hopitaux-docker .n
+- docker build -f Dockerfile -t ambulance_project/service-trajets-docker .n
+- docker build -f Dockerfile -t ambulance_project/service-ambulances-docker .n
+- docker build -f Dockerfile -t ambulance_project/gateway-docker .n
+- docker build -f Dockerfile -t ambulance_project/eureka-server-docker .n
+- **Docker Compose**
+- docker-compose up --build
 
 ## Remerciements
 
